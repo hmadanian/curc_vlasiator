@@ -1,0 +1,93 @@
+# -*- mode: makefile -*-
+CMP = mpicxx
+LNK = mpicxx
+
+#======== Vectorization ==========
+#Set vector backend type for vlasov solvers, sets precision and length. 
+#Options: 
+# AVX:      VEC4D_AGNER, VEC4F_AGNER, VEC8F_AGNER
+# AVX512:   VEC8D_AGNER, VEC16F_AGNER
+# Fallback: VEC4D_FALLBACK, VEC4F_FALLBACK, VEC8F_FALLBACK
+
+ifeq ($(DISTRIBUTION_FP_PRECISION),SPF)
+#Single-precision        
+        VECTORCLASS = VEC8F_AGNER
+else
+#Double-precision
+        VECTORCLASS = VEC8D_AGNER
+endif
+
+FLAGS = 
+
+# NOTES on compiler flags:
+# CXXFLAGS is for compiler flags, they are always used
+# MATHFLAGS are for special math etc. flags, these are only applied on solver functions
+# LDFLAGS flags for linker
+
+#GNU flags:
+CC_BRAND = gcc
+CC_BRAND_VERSION = 11.2.0
+CXXFLAGS += -g -O3 -fopenmp -funroll-loops -std=c++17 -W -Wall -Wno-unused -fabi-version=0 -Wall -Wpedantic -mfma -march=native -mavx2
+not_parallel_tools: CXXFLAGS += -march=native -mno-avx2 -mavx 
+testpackage: CXXFLAGS = -g -O2 -fopenmp -funroll-loops -std=c++17 -fabi-version=0 
+not_parallel_tools: CC_BRAND_VERSION = 4.9.2-noavx2
+
+MATHFLAGS = -ffast-math
+LDFLAGS =
+LIB_MPI = -lgomp
+
+BOOST_VERSION = 1.78.0
+#MPI_BRAND = mpt
+#MPI_VERSION = 2.22
+MPI_BRAND = openmpi
+MPI_VERSION = 4.1.1
+ZOLTAN_VERSION = 3.90
+SILO_VERSION =
+JEMALLOC_VERSION = 5.2.1
+LIBRARY_PREFIX = /projects/hama2717
+
+
+#======== PAPI ==========
+#Add PAPI_MEM define to use papi to report memory consumption?
+CXXFLAGS +=  -DPAPI_MEM
+testpackage: CXXFLAGS +=  -DPAPI_MEM
+
+
+#======== Allocator =========
+#Use jemalloc instead of system malloc to reduce memory fragmentation? https://github.com/jemalloc/jemalloc
+#Configure jemalloc with  --with-jemalloc-prefix=je_ when installing it
+CXXFLAGS += -DUSE_JEMALLOC -DJEMALLOC_NO_DEMANGLE
+testpackage: CXXFLAGS += -DUSE_JEMALLOC -DJEMALLOC_NO_DEMANGLE
+
+
+#compiled libraries
+
+INC_BOOST = -I/curc/sw/install/boost/1.78.0/openmpi/4.1.1/gcc/11.2.0/include
+LIB_BOOST = -L/curc/sw/install/boost/1.78.0/openmpi/4.1.1/gcc/11.2.0/lib/ -lboost_program_options
+
+INC_ZOLTAN =  -I/projects/hama2717/include/Zoltan/include
+LIB_ZOLTAN =  -L/projects/hama2717/include/Zoltan/lib/ -lzoltan
+
+INC_JEMALLOC = -I$(LIBRARY_PREFIX)/include/jemalloc/include
+LIB_JEMALLOC = -L$(LIBRARY_PREFIX)/include/jemalloc/lib/ -ljemalloc
+
+INC_VLSV = -I$(LIBRARY_PREFIX)/include/vlsv
+LIB_VLSV = -L$(LIBRARY_PREFIX)/include/vlsv -lvlsv
+
+LIB_PROFILE = -L$(LIBRARY_PREFIX)/include/phiprof/lib/ -lphiprof
+INC_PROFILE = -I$(LIBRARY_PREFIX)/include/phiprof/include
+
+INC_PAPI = -I/curc/sw/papi/5.5.1/include
+LIB_PAPI = -L/curc/sw/papi/5.5.1/lib/ -lpapi
+
+#header libraries
+
+#INC_EIGEN = -I/curc/sw/install/eigen/3.4.0/include/eigen3/
+INC_EIGEN = -I/projects/hama2717/include/eigen-3.2.8/
+INC_DCCRG = -I$(LIBRARY_PREFIX)/include/dccrg
+INC_FSGRID = -I$(LIBRARY_PREFIX)/include/fsgrid
+INC_VECTORCLASS = -I$(LIBRARY_PREFIX)/include/vectorclass
+
+
+
+

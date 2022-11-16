@@ -2,7 +2,8 @@
 ## Define test and runs
 #vlasiator binary
 
-bin=vlasiator
+bin=./vlasiator
+#bin=exec
 if [ ! -f $bin ]
 then
    echo Executable $bin does not exist
@@ -10,10 +11,10 @@ then
 fi
 
 # where the tests are run
-run_dir="run"
+run_dir="./testpackage/run"
 
 # where the directories for different tests, including cfg and other needed data files are located 
-test_dir="tests"
+test_dir="./testpackage/tests"
 
 # choose tests to run
 run_tests=( 1 2 3 4 5 6 7 8 9 10 11 12 13 14 17)

@@ -1,0 +1,300 @@
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+Computing reference results into /projects/hama2717/vlasiator/testpackage/
+running acctest_2_maxw_500k_100k_20kms_10deg 
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[17346,1],0]
+  Exit code:    127
+--------------------------------------------------------------------------
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[17359,1],0]
+  Exit code:    127
+--------------------------------------------------------------------------
+remove old results
+running acctest_3_substeps 
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[16437,1],0]
+  Exit code:    127
+--------------------------------------------------------------------------
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[16446,1],0]
+  Exit code:    127
+--------------------------------------------------------------------------
+remove old results
+running transtest_2_maxw_500k_100k_20kms_20x20 
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+remove old results
+running acctest_4_helium 
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[16401,1],0]
+  Exit code:    127
+--------------------------------------------------------------------------
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[16410,1],0]
+  Exit code:    127
+--------------------------------------------------------------------------
+remove old results
+running acctest_5_proton_antiproton 
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[16384,1],0]
+  Exit code:    127
+--------------------------------------------------------------------------
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[16397,1],0]
+  Exit code:    127
+--------------------------------------------------------------------------
+remove old results
+running restart_write 
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+ls: cannot access 'restart*.vlsv': No such file or directory
+remove old results
+cp: cannot stat 'restart.vlsv': Too many levels of symbolic links
+running restart_read 
+ls: cannot access '../restart_write/restart.vlsv': Too many levels of symbolic links
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+remove old results
+cp: cannot stat 'restart.vlsv': Too many levels of symbolic links
+running Magnetosphere_small 
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+remove old results
+running Magnetosphere_polar_small 
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+remove old results
+running test_fp_fsolver_only_3D 
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+remove old results
+running test_fp_substeps 
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+remove old results
+running Flowthrough_trans_periodic 
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+remove old results
+running Flowthrough_x_inflow_y_outflow 
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+remove old results
+running Flowthrough_x_inflow_y_outflow_acc 
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+remove old results
+running Flowthrough_amr 
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+/projects/hama2717/vlasiator/vlasiator: error while loading shared libraries: libphiprof.so: cannot open shared object file: No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+remove old results
